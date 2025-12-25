@@ -1,3 +1,12 @@
+```
+ ┌────────┐
+ │ B-Unit │
+ └────────┘
+
+  tradingDesk, an open source crypto trading desk solution with reporting and analytics
+  and a 7 day jump start plan to get you going in under 2 hours a day.
+
+```
 # Crypto Trading Bot Ecosystem - Complete Package
 
 **Open-source, self-hosted trading infrastructure for Coinbase Advanced API**
