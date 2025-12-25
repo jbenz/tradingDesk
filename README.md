@@ -7,14 +7,17 @@
   and a 7 day jump start plan to get you going in under 2 hours a day.
 
 ```
-# Crypto Trading Bot Ecosystem - Complete Package
+# tradingDesk - a Crypto Trading Bot Ecosystem for Debian
 
 **Open-source, self-hosted trading infrastructure for Coinbase Advanced API**
 Includes an install script, getting started guide, 7 day learning plan to get you up and running using the tools included in this package, reporting functionality, P&L management strategies and suggestions, security considerations and best practices, and an all around good open source time. 
 
-Please take note that I am not a financial advisor, none of this constitutes financial advice, you are always encouraged to do your own research, use testing platforms and testing api's whenever possible, and to make sure you never reveal your api keys, wallet keys or seed phrases, and cex/dex login information or two factor codes. It is advisable to use hardware security keys and hardware wallets whenever real assets are being utilized in executing trades. It is also highly advisable to limit API key usage with limited lifespans (as short as possible without causing nuisances to your workflow), exercising key rotations at monthly or quarterly intervals and during marketing closing hours or in coordination with scheduled maintenance of the exchanges and trading platforms you plan to integrate with. It is also highly advisable to use IP whitelisting to restrict access to APIs on your various accounts and for you to execute and run this suite of solutions behind a hardened firewall, enabling geoip restrictions to maximize protection to your systems, and consider using a static ip via a VPS server, a self-hosted or personal vpn server that is not shared with other users, and allows you to have fine granular control over the use of trading platforms involving your personal capital and crypto. 
+> [!NOTE]
+> Please take note that I am not a financial advisor, none of this constitutes financial advice, you are always encouraged to do your own research, use testing platforms and testing api's whenever possible, and to make sure you never reveal your api keys, wallet keys or seed phrases, and cex/dex login information or two factor codes. It is advisable to use hardware security keys and hardware wallets whenever real assets are being utilized in executing trades. It is also highly advisable to limit API key usage with limited lifespans (as short as possible without causing nuisances to your workflow), exercising key rotations at monthly or quarterly intervals and during marketing closing hours or in coordination with scheduled maintenance of the exchanges and trading platforms you plan to integrate with. It is also highly advisable to use IP whitelisting to restrict access to APIs on your various accounts and for you to execute and run this suite of solutions behind a hardened firewall, enabling geoip restrictions to maximize protection to your systems, and consider using a static ip via a VPS server, a self-hosted or personal vpn server that is not shared with other users, and allows you to have fine granular control over the use of trading platforms involving your personal capital and crypto. 
 
-Cheers, and trade on 🚀 🎡 ₿
+# Cheers, and trade on 🚀 🎡 ₿       [@jbenz](https://github.com/jbenz/tradingDesk)
+
+***
 
 ## 📦 What's Included
 
@@ -212,32 +215,33 @@ python3 ~/trading-bots/passivbot/backtest.py \
 
 ---
 
-## ⚠️ Risk Management Essentials
+> [!WARNING]
+> ## ⚠️ Risk Management Essentials
 
 ### Before Running Real Money:
 
-1. **Position Sizing**
+### 1. **Position Sizing** 
    - Never risk >2% of account per trade
    - Formula: Position = (Account × Risk%) / Stop-Loss%
    - Example: $10k account × 1% risk / 5% stop = $200 position
 
-2. **Stop-Loss Orders**
+### 2. **Stop-Loss Orders**
    - ALWAYS set stop-loss before entering trade
    - Recommended: 2-5% below entry (spot), 1-3% (futures)
    - Use exchange-level orders (safer than bot software)
 
-3. **Daily Loss Limits**
+### 3. **Daily Loss Limits**
    - If daily loss > 5%, reduce position size by 50%
    - If daily loss > 10%, stop bot and review strategy
    - Set automatic kill-switch at 10% daily loss
 
-4. **Leverage Guidelines**
+### 4. **Leverage Guidelines**
    - Spot trading: 1x (no leverage, safest)
    - Margin trading: 2-3x max (experienced traders only)
    - Perpetual futures: 2-5x (very risky)
    - Never use 10x+ leverage unless you know exactly what you're doing
 
-5. **Drawdown Expectations**
+### 5. **Drawdown Expectations**
    - Good strategies have 30-50% peak-to-trough drawdowns
    - Expect losing streaks of 5-10+ consecutive trades
    - DON'T modify strategy after 2-3 bad trades
@@ -257,7 +261,8 @@ chmod +x ~/trading-bots/daily_checklist.sh
 
 ---
 
-## 🔐 Security Best Practices
+> [!WARNING]
+> # 🔐 Security Best Practices
 
 ### API Key Safety
 ```bash
@@ -480,7 +485,7 @@ Follow `LEARNING_PATH.md` for 7 days
 ---
 
 **Last Updated**: December 2025  
-**Maintainer**: Your Trading Bot Team  
+#### Maintainer: [@jbenz](https://github.com/jbenz/tradingDesk)
 **Support**: Check Troubleshooting section first
 
 Happy trading! 🚀📈
