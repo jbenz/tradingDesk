@@ -13,7 +13,16 @@
 Includes an install script, getting started guide, 7 day learning plan to get you up and running using the tools included in this package, reporting functionality, P&L management strategies and suggestions, security considerations and best practices, and an all around good open source time. 
 
 > [!NOTE]
-> Please take note that I am not a financial advisor, none of this constitutes financial advice, you are always encouraged to do your own research, use testing platforms and testing api's whenever possible, and to make sure you never reveal your api keys, wallet keys or seed phrases, and cex/dex login information or two factor codes. It is advisable to use hardware security keys and hardware wallets whenever real assets are being utilized in executing trades. It is also highly advisable to limit API key usage with limited lifespans (as short as possible without causing nuisances to your workflow), exercising key rotations at monthly or quarterly intervals and during marketing closing hours or in coordination with scheduled maintenance of the exchanges and trading platforms you plan to integrate with. It is also highly advisable to use IP whitelisting to restrict access to APIs on your various accounts and for you to execute and run this suite of solutions behind a hardened firewall, enabling geoip restrictions to maximize protection to your systems, and consider using a static ip via a VPS server, a self-hosted or personal vpn server that is not shared with other users, and allows you to have fine granular control over the use of trading platforms involving your personal capital and crypto. 
+> Please take note that I am not a financial advisor, and none of these resources and guides constitutes financial advice. 
+
+> [!WARNING]
+> You are always encouraged to do your own research, use testing platforms and testing api's whenever possible, and to make sure you never reveal your api keys, wallet keys or seed phrases, and cex/dex login information or two factor codes.
+
+> [!WARNING]
+> It is advisable to use hardware security keys and hardware wallets whenever real assets are being utilized in executing trades. It is also highly advisable to limit API key usage with limited lifespans (as short as possible without causing nuisances to your workflow), exercising key rotations at monthly or quarterly intervals and during marketing closing hours or in coordination with scheduled maintenance of the exchanges and trading platforms you plan to integrate with.
+
+> [!NOTE]
+> You should consider IP whitelisting to restrict access to APIs on your various accounts and for you to execute and run this suite of solutions behind a hardened firewall, enabling geoip restrictions to maximize protection to your systems, and to consider using a static ip via a VPS server, a self-hosted or personal vpn server that is not shared with other users. Consideration of these solutions are recommended in that they offer fine granular control over the use of trading platforms involving your personal capital and crypto, and whenever you will be executing trades on a live cex/dex exchange. 
 
 # Cheers, and trade on 🚀 🎡 ₿       [@jbenz](https://github.com/jbenz/tradingDesk)
 
