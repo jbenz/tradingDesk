@@ -3,7 +3,7 @@
 # Automated Installation Script for Crypto Trading Bot Ecosystem
 # Supports: Debian 12/13, macOS Sequoia
 # Usage: bash install.sh
-# TESTED: Debian 13 (Trixie) with Python 3.13
+# TESTED: Debian 13 (Trixie) with Python 3.11, 3.12, 3.13
 
 set -e  # Exit on error
 
@@ -62,7 +62,7 @@ check_requirements() {
     
     # Check Docker
     if ! command -v docker &> /dev/null; then
-        echo -e "${RED}✗ Docker not found (optional, but recommended)${NC}"
+        echo -e "${YELLOW}⚠ Docker not found (optional, but recommended)${NC}"
     else
         echo -e "${GREEN}✓ Docker installed${NC}"
     fi
@@ -71,7 +71,7 @@ check_requirements() {
         echo ""
         echo -e "${RED}Missing required dependencies. Please install:${NC}"
         if [ "$OS" = "linux" ]; then
-            echo "sudo apt update && sudo apt install -y python3 python3-pip python3-venv git build-essential"
+            echo "sudo apt update && sudo apt install -y python3 python3-pip git build-essential"
         else
             echo "brew install python3 git"
         fi
@@ -232,6 +232,7 @@ setup_configuration() {
     
     mkdir -p ~/.trading_bot_config
     mkdir -p ~/trading-bots/reports
+    mkdir -p ~/trading-bots/scripts
     
     # Create environment file
     if [ ! -f ~/.trading_bot_keys.env ]; then
