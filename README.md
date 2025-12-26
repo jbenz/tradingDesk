@@ -71,6 +71,25 @@ This complete package includes everything you need to run professional-grade tra
 - Disk: 50GB (for historical data)
 - OS: Debian 13, Ubuntu 22.04+, or macOS Sequoia
 
+# Pre-requisites
+### Update system
+```
+sudo apt update && sudo apt upgrade -y
+```
+
+### Install Python & dependencies
+```
+sudo apt install -y python3 python3-pip python3-venv git curl wget build-essential libssl-dev libffi-dev python3-dev sqlite3 tmux screen
+```
+
+### Install Docker (optional but recommended)
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+bash get-docker.sh
+sudo usermod -aG docker $USER
+```
+
+
 --- 
 
 ## 🚀 Quick Start
