@@ -58,6 +58,21 @@ This complete package includes everything you need to run professional-grade tra
 
 ---
 
+# System Requirements
+## ☑️ Minimum
+- CPU: 2 cores
+- RAM: 4GB
+- Disk: 10GB
+- OS: Debian 13
+
+## ✅ Recommended
+- CPU: 4 cores
+- RAM: 8GB
+- Disk: 50GB (for historical data)
+- OS: Debian 13, Ubuntu 22.04+, or macOS Sequoia
+
+--- 
+
 ## 🚀 Quick Start
 
 ### 1. Installation (5 minutes)
