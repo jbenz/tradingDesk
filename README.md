@@ -13,7 +13,7 @@
 Includes an install script, getting started guide, 7 day learning plan to get you up and running using the tools included in this package, reporting functionality, P&L management strategies and suggestions, security considerations and best practices, and an all around good open source time. 
 
 > [!NOTE]
-> Please take note that I am not a financial advisor, and none of these resources and guides constitutes financial advice. 
+> Nothing contained in this repository, including but not limited to code, documentation, examples, and discussions, should be construed as financial advice, investment advice, tax advice, or legal advice. The authors and contributors are not financial advisors, investment advisors, tax professionals, or legal counsel, and no professional relationship is formed through your use of this software.
 
 > [!WARNING]
 > You are always encouraged to do your own research, use testing platforms and testing api's whenever possible, and to make sure you never reveal your api keys, wallet keys or seed phrases, and cex/dex login information or two factor codes.
@@ -25,6 +25,34 @@ Includes an install script, getting started guide, 7 day learning plan to get yo
 > You should consider IP whitelisting to restrict access to APIs on your various accounts and for you to execute and run this suite of solutions behind a hardened firewall, enabling geoip restrictions to maximize protection to your systems, and to consider using a static ip via a VPS server, a self-hosted or personal vpn server that is not shared with other users. Consideration of these solutions are recommended in that they offer fine granular control over the use of trading platforms involving your personal capital and crypto, and whenever you will be executing trades on a live cex/dex exchange. 
 
 # Cheers, and trade on 🚀 🎡 ₿       [@jbenz](https://github.com/jbenz/tradingDesk)
+
+***
+
+You should take a moment to carefull review the [project disclaimer](https://github.com/jbenz/tradingDesk/wiki#disclaimer),
+> [Not Professional Financial Advice](https://github.com/jbenz/tradingDesk/wiki#not-professional-financial-advice)
+
+>  [Do Your Own Research and Due Diligence](https://github.com/jbenz/tradingDesk/wiki#disclaimer)
+
+> [No Warranties or Guarantees](https://github.com/jbenz/tradingDesk/wiki#disclaimer)
+
+> [Limitation of Liability](https://github.com/jbenz/tradingDesk/wiki#disclaimer)
+
+> [Risk Assumption](https://github.com/jbenz/tradingDesk/wiki#disclaimer)
+
+> [No Endorsement](https://github.com/jbenz/tradingDesk/wiki#disclaimer)
+
+> [Regulatory Compliance](https://github.com/jbenz/tradingDesk/wiki#disclaimer)
+
+> [Use at Your Own Risk](https://github.com/jbenz/tradingDesk/wiki#disclaimer)
+
+
+Only after you have reviewed the project disclaimer, and understand the scope of the project, the associated risks, regulatory compliance considerations, should you continue to the getting started and installation documentation. Always consult with a licensed financial advisors, investment advisors, tax professionals, or legal counsel before implementing these tools and executing any live trading to ensure you have done your due diligence in deciding to use these tools. 
+
+# Please visit the [wiki](https://github.com/jbenz/tradingDesk/wiki) for all documentation.
+
+comprehensive computing [requirements](https://github.com/jbenz/tradingDesk/wiki/Introduction#system-requirements) and recommended specs, [getting started](https://github.com/jbenz/tradingDesk/wiki/Introduction#-quick-start) guides, installation information, a 7 day learning plan to introduce the tools of this project and their capabilities, and basic troubleshooting information. 
+
+
 
 ***
 
